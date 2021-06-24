@@ -1,0 +1,2 @@
+# Calendar_spider_ashwath
+This is a project for Spider inductions task 1. Here i have used HTML,CSS and Java script to develop a website that shows the current time with the help of a digital clock, a calendar that is user interactive where we can shift between months and the current day is highlighted., and a todo list where the user can add and remove tasks to be done by him/her and these tasks are stored in the local storage.
