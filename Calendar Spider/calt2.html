@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Calendar</title>
+        <link rel="stylesheet" href="calt2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="clock2.css">
+        <link rel="stylesheet" href="todolist2.css">
+        <link res="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <script src="https://kit.fontawesome.com/653b31a42d.js" crossorigin="anonymous"></script>
+        <!-- <link rel = "stylesheet" href="todolist.css"> -->
+    </head>
+    <body>
+        
+        <div class="container">
+            <div id="clock">8:10:45</div>
+            <div class="calendar">
+                <div class="month">
+                    <i class="fas fa-angle-left
+                    prev"></i>
+                    <div class="date">
+                        <h1>May</h1>
+                        <p>Fri May 29,2020</p>
+                    </div>
+                    <i class="fas fa-angle-right next">
+                    </i>
+                </div>
+                <div class="weekdays">
+                    <div>Sun</div>
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                </div>
+                <div class="days">
+                    
+                </div>
+
+            </div>
+            </div>
+            <div class="container2">
+              <div class="header">
+                To Do List
+            </div>
+            
+            <div class="content">
+                
+                <div class="dateAndClear">
+                    
+                    <div id="date"></div>
+                    
+                    <div class="clear">
+                        <i class="fas fa-sync-alt" onclick="UI.clearToDo()"></i>
+                    </div>
+                    
+                </div>
+                
+                <ul id="list">
+                    
+                </ul>
+               
+            </div>
+            
+            <div class="addToDo">
+                <i class="fas fa-plus-circle co"></i>
+                <input type="text" id="input" placeholder="Add new item">
+            </div>
+        </div>
+
+
+
+
+        <!-- <script src = "todolist.js"></script> -->
+        <script  src="todolist2.js"></script>
+        <script src="clock2.js"></script>
+        <script src="calt2.js"></script>
+    </body>
+</html>
